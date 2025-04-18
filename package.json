@@ -1,0 +1,30 @@
+{
+  "name": "neonotes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@codemirror/state": "^6.5.2",
+    "@codemirror/view": "^6.36.5",
+    "@replit/codemirror-vim": "^6.3.0",
+    "dexie": "^4.0.11",
+    "papaparse": "^5.5.2",
+    "react": "^19.1.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-dom": "^19.1.0",
+    "recharts": "^2.15.3",
+    "slate": "^0.112.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.24.0",
+    "prettier": "^3.5.3",
+    "vite": "^6.3.2"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .js,.jsx",
+    "format": "prettier --write src"
+  }
+}
